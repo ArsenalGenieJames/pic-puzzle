@@ -1,0 +1,15 @@
+body{
+    background-color: #A62C2C;
+}
+.tile {
+  background-size: 580px 580px;
+  width: 193.33px;
+  height: 193.33px;
+}
+@media (max-width: 768px) {
+  .tile {
+    background-size: 300px 300px;
+    width: 100px;
+    height: 100px;
+  }
+}
