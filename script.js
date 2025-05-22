@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const puzzle = document.getElementById("puzzle");
   let tiles = [];
   let imageUrl = './img/biniaiah.jpg'; // Default image
-  let currentInstructor = "Honey Belle Bontuyan";
+  let currentInstructor = "Aiah Arceta";
   let moveCount = 0;
   let bestMoves = Infinity;
 
