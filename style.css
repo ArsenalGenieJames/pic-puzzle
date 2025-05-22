@@ -1,15 +1,13 @@
-body{
-    background-color: #A62C2C;
-}
-.tile {
-  background-size: 580px 580px;
-  width: 193.33px;
-  height: 193.33px;
-}
-@media (max-width: 768px) {
-  .tile {
-    background-size: 300px 300px;
-    width: 100px;
-    height: 100px;
-  }
-}
+
+body {
+      background-color: #FF0B55;
+        }
+        .tile {
+            background-size: 300% 300%;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .tile:hover {
+            transform: scale(0.98);
+        }
