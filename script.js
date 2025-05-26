@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const j = Math.floor(Math.random() * (i + 1));
         [tiles[i], tiles[j]] = [tiles[j], tiles[i]];
       }
-    } while (!isSolvable(tiles)); // Ensure puzzle is solvable
+    } while (!isSolvable(tiles)); // Ensure na ang puzzle is solvable
     render();
   }
 
@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById('shuffle').onclick = shuffle;
 
  
-  // Initial setup
+
   createTiles();
   shuffle();
   ref.style.backgroundImage = `url(${imageUrl})`;
