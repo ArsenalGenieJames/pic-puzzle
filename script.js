@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   const puzzle = document.getElementById("puzzle");
   let tiles = [];
-  let imageUrl = './img/biniaiah.jpg'; // Default image
-  let currentInstructor = "Aiah Arceta";
+  let imageUrl = 'img/ccslogo.jpg'; // Default image
+  let currentInstructor = "SPC College of Computer Studies";
   let moveCount = 0;
   let bestMoves = Infinity;
 
@@ -14,7 +14,11 @@ document.addEventListener("DOMContentLoaded", function () {
     "honney.jpg": "Honey Belle Bontuyan",
     "lara.jpg": "Lara Elika Montecillo",
     "rochelle.jpg": "Rochel Mae Nazareno",
-    "biniaiah.jpg": "Aiah Arceta",
+    "ccslogo.jpg": "SPC College of Computer Studies",
+    "ryan.jpg": "Ryan E Balisi",
+    "erwin.jpg": "Erwin Secosana",
+    "montebon.jpg": "Reryll Montebon",
+    "gambe.jpg": "Mellanie Sombreno Gambe ",
   };
 
   window.selectImage = function (src) {
@@ -156,11 +160,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.getElementById('shuffle').onclick = shuffle;
 
-  document.getElementById('reset')?.addEventListener('click', () => {
-    createTiles();
-    shuffle();
-  });
-
+ 
   // Initial setup
   createTiles();
   shuffle();
@@ -170,3 +170,5 @@ document.addEventListener("DOMContentLoaded", function () {
   instructorNameEl.textContent = currentInstructor;
   updateMoveDisplay();
 });
+
+
